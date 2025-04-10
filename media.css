@@ -1,0 +1,155 @@
+/* =========================
+   MEDIA-RESPONSIVE
+   ========================= */
+
+/* Mobile: <= 576px */
+@media (max-width: 576px) {
+    .content-home2 {
+        flex-direction: column;
+        text-align: center;
+        height: auto;
+    }
+
+    .img-home {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .box-container2 {
+        padding: 20px 10px;
+    }
+
+    .home-heading {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .para-home {
+        font-size: 16px;
+        max-width: 100%;
+    }
+
+    .home-links {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .about-us {
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+        padding: 40px 10px;
+    }
+
+    .img-about {
+        position: static;
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+    }
+
+    .product-category {
+        padding: 0 10px;
+        height: auto;
+    }
+
+    .heading-product {
+        font-size: 26px;
+        margin-bottom: 60px;
+    }
+
+    .card-product {
+        margin-bottom: 30px;
+    }
+
+    .btn-prev,
+    .btn-next {
+        width: 28px;
+        height: 28px;
+    }
+
+    .btn-scroll i {
+        font-size: 12px;
+    }
+}
+
+/* Tablet: >= 577px and <= 768px */
+@media (min-width: 577px) and (max-width: 768px) {
+    .content-home2 {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        text-align: center;
+    }
+
+    .img-home {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+    .home-heading {
+        font-size: 36px;
+        line-height: 48px;
+    }
+
+    .para-home {
+        font-size: 18px;
+        max-width: 90%;
+    }
+
+    .box-container2 {
+        padding: 20px;
+    }
+
+    .about-us {
+        height: auto;
+        padding: 40px 20px;
+        text-align: center;
+    }
+
+    .img-about {
+        position: static;
+        width: 100%;
+        height: auto;
+        margin-top: 30px;
+    }
+
+    .card-product {
+        margin-bottom: 30px;
+    }
+
+    .product-category {
+        height: auto;
+    }
+
+    .btn-prev,
+    .btn-next {
+        width: 32px;
+        height: 32px;
+    }
+
+    .btn-scroll i {
+        font-size: 14px;
+    }
+}
+
+/* Desktop: >= 769px */
+@media (min-width: 769px) {
+    .product-category {
+        padding: 0 60px;
+    }
+
+    .card-product {
+        height: 100%;
+    }
+
+    .btn-prev,
+    .btn-next {
+        width: 35px;
+        height: 35px;
+    }
+
+    .btn-scroll i {
+        font-size: 16px;
+    }
+}
